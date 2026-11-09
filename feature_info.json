@@ -1,0 +1,69 @@
+{
+    "numeric_columns": [
+        "Age",
+        "Current_semester",
+        "CGPA",
+        "Cost_without_study"
+    ],
+    "categorical_columns": [
+        "Gender",
+        "Family_background",
+        "Relationship_status",
+        "Marital_status",
+        "Living_style",
+        "friend_circle",
+        "Health_condition",
+        "Home_division"
+    ],
+    "numeric_defaults": {
+        "Age": 23.0,
+        "Current_semester": 5.0,
+        "CGPA": 3.49,
+        "Cost_without_study": 9500.0
+    },
+    "categorical_options": {
+        "Gender": [
+            "Female",
+            "Male"
+        ],
+        "Family_background": [
+            "Lower Middle class",
+            "Middle class",
+            "Rich class"
+        ],
+        "Relationship_status": [
+            "Complicated",
+            "In a Relationship",
+            "Single"
+        ],
+        "Marital_status": [
+            "Married",
+            "Separated",
+            "Unmarried"
+        ],
+        "Living_style": [
+            "Bachelor",
+            "Family"
+        ],
+        "friend_circle": [
+            "No",
+            "Yes"
+        ],
+        "Health_condition": [
+            "Abnormal",
+            "Critical",
+            "Good",
+            "Normal"
+        ],
+        "Home_division": [
+            "Barisal",
+            "Chittagong",
+            "Dhaka",
+            "Khulna",
+            "Mymensingh",
+            "Rajshahi",
+            "Rangpur",
+            "Sylhet"
+        ]
+    }
+}
